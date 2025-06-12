@@ -1,12 +1,25 @@
-# React + Vite
+# 💖 Site Romântico - Para Minha Namorada
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um site especial feito com React e Tailwind para celebrar o nosso relacionamento. Ele contém momentos marcantes, músicas que nos representam, uma galeria de fotos, e uma carta de amor animada. Tudo foi criado com carinho para proporcionar uma experiência visual emocionante.
 
-Currently, two official plugins are available:
+## 🌐 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React (com hooks)
+- Tailwind
+- Intersection Observer (para animações ao rolar)
+- Componentes reutilizáveis
+- Organização por seções
 
-## Expanding the ESLint configuration
+## 📂 Estrutura de Arquivos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Componente         | Descrição                                   |
+| ------------------ | ------------------------------------------- |
+| `Header`           | Cabeçalho com título personalizado          |
+| `Hero`             | Seção de abertura com destaque visual       |
+| `RelationshipDate` | Data de início do relacionamento            |
+| `Us`               | Nossa história, curiosidades ou depoimentos |
+| `Gallery`          | Galeria de fotos compartilhadas             |
+| `LoveSection`      | Transição romântica entre seções            |
+| `Musics`           | Músicas especiais para o casal              |
+| `LoveLetter`       | Carta de amor animada e emocionante         |
+| `Footer`           | Rodapé com mensagem final ou créditos       |
