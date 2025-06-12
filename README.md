@@ -11,19 +11,6 @@ Este é um site especial feito com React e Tailwind para celebrar o nosso relaci
 - Organização por seções
 
 ## 📂 Estrutura de Arquivos
-src/
-├── components/
-│ ├── Header.jsx
-│ ├── Hero.jsx
-│ ├── RelationshipDate.jsx
-│ ├── Us.jsx
-│ ├── Gallery.jsx
-│ ├── LoveSection.jsx
-│ ├── Musics.jsx
-│ ├── LoveLetter.jsx
-│ └── Footer.jsx
-├── index.css
-└── App.jsx
 
 | Componente         | Descrição                                   |
 | ------------------ | ------------------------------------------- |
