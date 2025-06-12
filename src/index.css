@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(30deg);
+    opacity: 0;
+  }
+}
+
+.animate-fall {
+  animation: fall 3s ease-in forwards;
+}
+
+
+.perspective {
+  perspective: 1000px;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+
+@layer utilities {
+  .animate-fadeInScaleSlow {
+    animation: fadeInScaleSlow 1s ease-out both;
+  }
+
+  @keyframes fadeInScaleSlow {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
+
